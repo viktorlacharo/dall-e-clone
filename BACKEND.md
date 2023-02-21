@@ -91,3 +91,5 @@ Para descargar las imágenes se ha creado el componente de `Card`, en el que se 
 ## Buscador
 
 El buscador, es básico, mediante estados de React, y buscar a traves de `filter()`, ver más en el componente de `Home.jsx`
+
+El despliegue del backend, se va a hacer en [Render](https://render.com/)
