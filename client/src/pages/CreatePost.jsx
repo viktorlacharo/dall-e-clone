@@ -38,7 +38,7 @@ const CreatePost = () => {
         setForm({ ...form, photo: `data:image/jpeg;base64, ${data?.photo}` });
       } catch (err) {
         // Manejar cualquier error que ocurra durante la petición
-        alert("Sorry, there is some error, on generation process. Try later.");
+        alert("Sorry, there is some error, on generation process. Try later. Probably, you are trying to generate something wrong according to the OpenAI Terms and Conditions.");
       } finally {
         setGeneratingImg(false);
       }
